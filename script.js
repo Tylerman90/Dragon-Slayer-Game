@@ -1,11 +1,9 @@
-var stillSlaying = function () {
+var slaying = true;
+
+var youHit = function () {
+    Math.floor(Math.random() * 2);
 };
 
-var hitDragon = function () {    
-};
+var damageThisRound = Math.floor(Math.random()*5 + 1);
 
-var damageDealt = function () {
-};
-
-var totalDamage = function () {
-};
+var totalDamage = 0;
