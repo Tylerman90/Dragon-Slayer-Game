@@ -1,6 +1,11 @@
 var slaying = true;
 
 while (slaying) {
+    if (youHit === true) {
+        console.log("You hit the dragon!");
+    } else {
+        console.log("The dragon defeated you!");
+    }
     slaying = false;
 }
 
