@@ -1,5 +1,9 @@
 var slaying = true;
 
+while (slaying) {
+    slaying = false;
+}
+
 var youHit = function () {
     Math.floor(Math.random() * 2);
 };
