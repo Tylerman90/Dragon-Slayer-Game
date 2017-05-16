@@ -11,7 +11,7 @@ while (slaying) {
 			youHit = Math.floor(Math.random() * 2);
 		}
 	} else {
-		console.log("The dragon defeated you!");
+		console.log("The dragon has defeated you!");
 		slaying = false;
 	}
 }
